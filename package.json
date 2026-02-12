@@ -1,0 +1,70 @@
+{
+  "id": "pubmed-plus",
+  "name": "PubMed Plus Professional",
+  "version": "2.0.0",
+  "description": "Advanced PubMed research skill with MeSH expansion, citation network analysis, and reference manager integration",
+  "entryPoint": "index.ts",
+  "permissions": ["web"],
+  "keywords": [
+    "pubmed",
+    "pubmed-plus",
+    "medical-research",
+    "mesh",
+    "citation-network",
+    "bibliometric",
+    "reference-manager",
+    "zotero",
+    "endnote",
+    "academic",
+    "systematic-review"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "homepage": "https://github.com/openclaw/skills/tree/main/skills/pubmed-plus",
+  "bugs": "https://github.com/openclaw/skills/issues",
+  "engines": {
+    "openclaw": ">=2026.0.0"
+  },
+  "clawdbot": {
+    "emoji": "🔬",
+    "requires": {
+      "bins": [],
+      "env": [],
+      "os": ["linux", "darwin", "win32"],
+      "apiKeys": []
+    },
+    "install": []
+  },
+  "categories": [
+    "research",
+    "academic",
+    "medical",
+    "productivity"
+  ],
+  "examples": [
+    {
+      "description": "Search with automatic MeSH expansion",
+      "command": "PubMed Plus: diabetes treatment with MeSH expansion"
+    },
+    {
+      "description": "Analyze citation network",
+      "command": "Analyze citation network for CRISPR gene editing"
+    },
+    {
+      "description": "Export to Zotero",
+      "command": "Export 50 results to Zotero collection"
+    },
+    {
+      "description": "Export to RIS format",
+      "command": "Export citations in RIS format for EndNote"
+    },
+    {
+      "description": "Assess evidence levels",
+      "command": "Show evidence level distribution of my search results"
+    },
+    {
+      "description": "Research trends",
+      "command": "Analyze research trends in AI medicine 2014-2024"
+    }
+  ]
+}
