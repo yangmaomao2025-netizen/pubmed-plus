@@ -1,3 +1,8 @@
+---
+name: pubmed-plus
+description: PubMed Plus 专业版医学文献检索工具。提供自动MeSH扩展、引用网络分析、批量导出、证据等级评估和研究趋势分析。当用户需要专业的PubMed检索、文献分析或导出引用时使用。
+---
+
 # PubMed Plus - Professional Medical Literature Research Skill
 
 Professional PubMed research skill with advanced features: automatic MeSH term expansion, citation network analysis, batch export, and integration with reference managers.
